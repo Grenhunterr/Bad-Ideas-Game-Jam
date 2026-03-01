@@ -13,9 +13,17 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 352,
-  "y": 496,
-  "script": [],
+  "x": 304,
+  "y": 448,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "$self$"
+      },
+      "id": "953d2e30-8dc2-4b6f-88e2-b0f79ddf39fe"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
