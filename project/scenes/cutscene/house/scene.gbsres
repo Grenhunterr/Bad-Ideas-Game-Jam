@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "1ba9a01a-1ac2-407f-998a-2f6430dd398d",
+  "_index": 3,
+  "name": "cutscene/house",
+  "backgroundId": "7bba3c02-cbb5-4339-bdfa-b236e1df9d10",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_4",
+  "x": 352,
+  "y": 496,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}

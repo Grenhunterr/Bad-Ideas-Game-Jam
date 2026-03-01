@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "75656227-9ddb-4de3-91b1-a3880c97c663",
+  "name": "musictext",
+  "symbol": "bg_musictext",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "musictext.png",
+  "tileColors": ""
+}

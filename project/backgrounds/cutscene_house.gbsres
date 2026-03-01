@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "7bba3c02-cbb5-4339-bdfa-b236e1df9d10",
+  "name": "cutscene_house",
+  "symbol": "bg_cutscene_house",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "cutscene_house.png",
+  "tileColors": ""
+}
