@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "b25cfcc4-0ece-4c1a-b382-6bcf8c065ca9",
   "_index": 2,
-  "name": "Logo",
+  "name": "ui/JWG Logo",
   "backgroundId": "75656227-9ddb-4de3-91b1-a3880c97c663",
   "tilesetId": "",
   "width": 20,
@@ -36,7 +36,7 @@
       "id": "f618b347-9229-45d4-a72d-bab78e7ecb8b",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 2
+        "time": 1.5
       }
     },
     {
@@ -59,7 +59,7 @@
       "id": "d1f6679a-467e-4320-8464-67948e6343bc",
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
+        "sceneId": "2f9d04ac-e10c-4cd0-b3bf-276a5c3d8581",
         "x": {
           "type": "number",
           "value": 0

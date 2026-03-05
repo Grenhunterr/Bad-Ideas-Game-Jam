@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "1a31ae14-b806-4912-b1b1-626dfbf92ff3",
+  "name": "titlescreen_glitterbomb_pressstart",
+  "symbol": "bg_titlescreen_glitterbomb_",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "titlescreen_glitterbomb_pressstart.png",
+  "tileColors": ""
+}

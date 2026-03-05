@@ -65,6 +65,36 @@
       "id": "12",
       "name": "PushedIceBlock",
       "symbol": ""
+    },
+    {
+      "id": "25",
+      "name": "1,1",
+      "symbol": "var_1_1"
+    },
+    {
+      "id": "26",
+      "name": "1,2",
+      "symbol": "var_1_2"
+    },
+    {
+      "id": "27",
+      "name": "1,3",
+      "symbol": "var_1_3"
+    },
+    {
+      "id": "28",
+      "name": "1,4",
+      "symbol": "var_1_4"
+    },
+    {
+      "id": "30",
+      "name": "2,1",
+      "symbol": "var_2_1"
+    },
+    {
+      "id": "29",
+      "name": "1,5",
+      "symbol": "var_1_5"
     }
   ]
 }
