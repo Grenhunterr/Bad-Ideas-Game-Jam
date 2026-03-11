@@ -1,0 +1,21 @@
+{
+  "_resourceType": "script",
+  "id": "d3f8fb2a-20d3-4b82-bb89-336f1a9fba39",
+  "name": "draw row 5",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_7",
+  "script": [
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:d3e9bce5-a7e7-4488-bbba-71f442a62fb8!#45##46##47##48##49#",
+        "x": 7,
+        "y": 11,
+        "location": "background"
+      },
+      "id": "d184f3ef-9a43-4358-a35f-94855073ce6c"
+    }
+  ]
+}

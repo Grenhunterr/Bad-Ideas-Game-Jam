@@ -3,8 +3,8 @@
   "variables": [
     {
       "id": "0",
-      "name": "Seen Cat",
-      "symbol": ""
+      "name": "DONTUSETHIS (count tiles)",
+      "symbol": "var_dontusethis_count_tiles_0"
     },
     {
       "id": "1",
@@ -13,23 +13,23 @@
     },
     {
       "id": "2",
-      "name": "Used Radio",
-      "symbol": ""
+      "name": "selec_x",
+      "symbol": "var_selec_x"
     },
     {
       "id": "3",
-      "name": "Spoke To Space Dog",
-      "symbol": ""
+      "name": "selec_y",
+      "symbol": "var_selec_y"
     },
     {
       "id": "4",
-      "name": "Quest1",
-      "symbol": ""
+      "name": "mine1x",
+      "symbol": "var_mine1x"
     },
     {
       "id": "5",
-      "name": "Quest2",
-      "symbol": ""
+      "name": "mine1y",
+      "symbol": "var_mine1y"
     },
     {
       "id": "6",
@@ -95,6 +95,101 @@
       "id": "29",
       "name": "1,5",
       "symbol": "var_1_5"
+    },
+    {
+      "id": "31",
+      "name": "2,2",
+      "symbol": "var_2_2"
+    },
+    {
+      "id": "32",
+      "name": "2,3",
+      "symbol": "var_2_3"
+    },
+    {
+      "id": "33",
+      "name": "2,4",
+      "symbol": "var_2_4"
+    },
+    {
+      "id": "34",
+      "name": "2,5",
+      "symbol": "var_2_5"
+    },
+    {
+      "id": "35",
+      "name": "3,1",
+      "symbol": "var_3_1"
+    },
+    {
+      "id": "36",
+      "name": "3,2",
+      "symbol": "var_3_2"
+    },
+    {
+      "id": "37",
+      "name": "3,3",
+      "symbol": "var_3_3"
+    },
+    {
+      "id": "38",
+      "name": "3,4",
+      "symbol": "var_3_4"
+    },
+    {
+      "id": "39",
+      "name": "3,5",
+      "symbol": "var_3_5"
+    },
+    {
+      "id": "40",
+      "name": "4,1",
+      "symbol": "var_4_1"
+    },
+    {
+      "id": "41",
+      "name": "4,2",
+      "symbol": "var_4_2"
+    },
+    {
+      "id": "42",
+      "name": "4,3",
+      "symbol": "var_4_3"
+    },
+    {
+      "id": "43",
+      "name": "4,4",
+      "symbol": "var_4_4"
+    },
+    {
+      "id": "44",
+      "name": "4,5",
+      "symbol": "var_4_5"
+    },
+    {
+      "id": "45",
+      "name": "5,1",
+      "symbol": "var_5_1"
+    },
+    {
+      "id": "46",
+      "name": "5,2",
+      "symbol": "var_5_2"
+    },
+    {
+      "id": "47",
+      "name": "5,3",
+      "symbol": "var_5_3"
+    },
+    {
+      "id": "48",
+      "name": "5,4",
+      "symbol": "var_5_4"
+    },
+    {
+      "id": "49",
+      "name": "5,5",
+      "symbol": "var_5_5"
     }
   ]
 }

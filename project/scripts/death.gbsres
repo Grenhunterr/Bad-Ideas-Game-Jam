@@ -1,0 +1,53 @@
+{
+  "_resourceType": "script",
+  "id": "8b393f24-021c-44de-8d46-0d30611d6071",
+  "name": "death",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_12",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "!F:877fede5-f95b-4f58-9340-b36e19c33ae2!You died moron"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1d4d2a0c-c1fc-4061-a712-7a61d246104b"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "2f9d04ac-e10c-4cd0-b3bf-276a5c3d8581",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "6d82a2ac-0e9a-426f-84a0-93864ebb492c"
+    }
+  ]
+}

@@ -10,11 +10,11 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "",
+  "collisions": "0069+0f9+00b+0f9+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f9+00b+0f9+0056+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 311,
-  "y": 661,
+  "x": 312,
+  "y": 664,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",
@@ -25,9 +25,143 @@
         "location": "background"
       },
       "id": "05064b37-2a69-41a3-81f9-e7f30ff1478f"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:d3e9bce5-a7e7-4488-bbba-71f442a62fb8!#30##31##32##33##34#",
+        "x": 7,
+        "y": 8,
+        "location": "background"
+      },
+      "id": "19337024-1685-4bdf-90b8-16ab381ed33f"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:d3e9bce5-a7e7-4488-bbba-71f442a62fb8!#35##36##37##38##39#",
+        "x": 7,
+        "y": 9,
+        "location": "background"
+      },
+      "id": "d043bd4f-5612-48a2-a7f7-8cea30c1d922"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:d3e9bce5-a7e7-4488-bbba-71f442a62fb8!#40##41##42##43##44#",
+        "x": 7,
+        "y": 10,
+        "location": "background"
+      },
+      "id": "368be0ae-909e-4d74-bab3-7ae9da12656b"
+    },
+    {
+      "command": "EVENT_TEXT_DRAW",
+      "args": {
+        "text": "!F:d3e9bce5-a7e7-4488-bbba-71f442a62fb8!#45##46##47##48##49#",
+        "x": 7,
+        "y": 11,
+        "location": "background"
+      },
+      "id": "7f7d1fb3-4c8d-4af4-b3bb-3a1ec43144cf"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "6fcc8cc3-d9d7-4fd1-a0ca-c08d096d0fbc",
+              "$variable[V0]$": {
+                "type": "variable",
+                "value": "0"
+              }
+            },
+            "id": "29e9f1d1-f865-44f8-b134-cffcab570729"
+          }
+        ]
+      },
+      "id": "d3d86a7b-405a-45b7-9977-72eff6334eac"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "2f9d04ac-e10c-4cd0-b3bf-276a5c3d8581",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "8587fdb7-b210-469c-b7f0-7e98c21f817f"
+          }
+        ]
+      },
+      "id": "31794f6c-755f-4f28-a7ff-812ac6b531f2"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "select"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "beep",
+              "priority": "medium",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": false,
+              "effect": 0
+            },
+            "id": "e38eb146-7819-40ed-b12f-073a1d52c0d3"
+          },
+          {
+            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "args": {
+              "customEventId": "da5dc7f7-00f1-44d3-a4c3-ccf27e98952a"
+            },
+            "id": "305302c6-774d-4b51-98d7-ffc7cf081be7"
+          }
+        ]
+      },
+      "id": "44bc741d-c238-41c6-b061-5fcdab94fb96"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "c4701f6e-141f-42b1-b4e7-6e86471a1c1c"
 }
