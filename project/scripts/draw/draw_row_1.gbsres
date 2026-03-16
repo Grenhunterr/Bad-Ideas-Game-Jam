@@ -1,7 +1,7 @@
 {
   "_resourceType": "script",
   "id": "a1ecb19b-bf4b-4ecc-9ab6-6b0c5053466b",
-  "name": "draw row 1",
+  "name": "draw/draw row 1",
   "description": "",
   "variables": {},
   "actors": {},

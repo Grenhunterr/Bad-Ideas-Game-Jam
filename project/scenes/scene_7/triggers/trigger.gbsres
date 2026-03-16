@@ -1,0 +1,88 @@
+{
+  "_resourceType": "trigger",
+  "id": "b3225354-56cb-45ce-8aed-b373d85c50a1",
+  "name": "",
+  "prefabId": "",
+  "x": 2,
+  "y": 20,
+  "symbol": "trigger_7",
+  "prefabScriptOverrides": {},
+  "width": 7,
+  "height": 8,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "8f037068-1a3a-412d-9440-ea560fc9ef18"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {},
+            "id": "1ee280ff-67f8-480a-9505-f8a53bf6fc5f"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "dc1051e4-058e-48de-9b21-35feaa52bbd5"
+            },
+            "id": "56f4a84c-747a-4447-9775-c4b24c882ad2"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 8.4,
+              "frames": 30
+            },
+            "id": "6b130ea7-8817-4099-a246-7a69c10525b3"
+          },
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "ce97c267-5484-4691-96ef-f4a25a76a773"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {},
+            "id": "8e6ac802-3b61-4c0a-b087-6a59914a3677"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "c45e51ee-f3a9-4074-acf8-9d985c662400"
+            },
+            "id": "62baea6a-0f8a-4365-b513-5d83aaaf94d5"
+          }
+        ]
+      },
+      "id": "9914feb9-cea8-4aae-bc16-d3adea2c091b"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "d7f5f84d-6a4d-46d6-8387-8a291afb55a0"
+    }
+  ],
+  "_index": 0
+}

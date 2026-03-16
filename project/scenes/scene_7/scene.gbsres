@@ -1,0 +1,95 @@
+{
+  "_resourceType": "scene",
+  "id": "b170ab6c-861c-47f7-8b23-424cc172caca",
+  "_index": 6,
+  "name": "Scene 7",
+  "backgroundId": "6fa3ab7b-50fc-486f-acb0-53eff833783a",
+  "tilesetId": "",
+  "width": 20,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0028+0f28+00280+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_7",
+  "x": 112,
+  "y": 1000,
+  "script": [
+    {
+      "command": "EVENT_SET_DIALOGUE_FRAME",
+      "args": {
+        "tilesetId": "5344012f-7d30-4860-a619-f51dc180f1d0"
+      },
+      "id": "d1ab7991-6389-447b-ade1-eb591944b61c"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "!F:877fede5-f95b-4f58-9340-b36e19c33ae2!PSPU - About Us\n!F:fefd5b03-8005-48fe-b6d5-59e1fea0b7c6!www.PSPU.com/about     "
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 3,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "top",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "notModal",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "dbaf10b2-455b-4dc1-a0ea-dad246cadcea"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "b"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_DIALOGUE_CLOSE_NONMODAL",
+            "args": {
+              "speed": 0
+            },
+            "id": "9ba9ffe1-075d-44d4-9996-d27632260eaf"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "2f9d04ac-e10c-4cd0-b3bf-276a5c3d8581",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "d44ec50c-ebf9-45a7-8e3a-b747fdeb60a6"
+          }
+        ]
+      },
+      "id": "e2105f6c-af55-4b4d-96f2-d97dc8d10c93"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "ad24318e-60a7-4513-9784-e06bfba2e782"
+}

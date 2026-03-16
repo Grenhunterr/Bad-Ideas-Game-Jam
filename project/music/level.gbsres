@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "c4fbfdfc-6cc4-4c79-8af1-74cd22163771",
+  "name": "level",
+  "symbol": "song_level",
+  "filename": "level.uge",
+  "settings": {},
+  "type": "uge"
+}

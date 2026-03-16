@@ -4,7 +4,7 @@
     {
       "id": "0",
       "name": "DONTUSETHIS (count tiles)",
-      "symbol": "var_dontusethis_count_tiles_0"
+      "symbol": "var_dontusethis_count_tiles"
     },
     {
       "id": "1",
@@ -33,23 +33,23 @@
     },
     {
       "id": "6",
-      "name": "Quest3",
-      "symbol": ""
+      "name": "mine2x",
+      "symbol": "var_mine2x"
     },
     {
       "id": "7",
-      "name": "Quest4",
-      "symbol": ""
+      "name": "mine2y",
+      "symbol": "var_mine2y"
     },
     {
       "id": "8",
-      "name": "Quest5",
-      "symbol": ""
+      "name": "mine3x",
+      "symbol": "var_mine3x"
     },
     {
       "id": "9",
-      "name": "Quest6",
-      "symbol": ""
+      "name": "mine3y",
+      "symbol": "var_mine3y"
     },
     {
       "id": "10",
@@ -190,6 +190,16 @@
       "id": "49",
       "name": "5,5",
       "symbol": "var_5_5"
+    },
+    {
+      "id": "14",
+      "name": "correct",
+      "symbol": "var_correct"
+    },
+    {
+      "id": "15",
+      "name": "not correct",
+      "symbol": "var_not_correct"
     }
   ]
 }

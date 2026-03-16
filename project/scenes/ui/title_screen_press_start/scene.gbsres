@@ -24,6 +24,13 @@
       }
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "c45e51ee-f3a9-4074-acf8-9d985c662400"
+      },
+      "id": "189b3ef0-9210-4752-a8ea-4e32b7b32896"
+    },
+    {
       "command": "EVENT_RNG_SEED",
       "args": {},
       "id": "a099b069-c9f2-4cf9-a249-6f54a89c1794"

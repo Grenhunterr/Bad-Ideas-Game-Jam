@@ -3,7 +3,7 @@
   "id": "b25cfcc4-0ece-4c1a-b382-6bcf8c065ca9",
   "_index": 2,
   "name": "ui/JWG Logo",
-  "backgroundId": "75656227-9ddb-4de3-91b1-a3880c97c663",
+  "backgroundId": "deb9dec2-2db0-4964-9bc4-05d2c0ae0b1e",
   "tilesetId": "",
   "width": 20,
   "height": 18,
@@ -33,6 +33,13 @@
       "id": "b150b1ca-c220-498e-aef9-2690fcae2953"
     },
     {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "dc1051e4-058e-48de-9b21-35feaa52bbd5"
+      },
+      "id": "86e03a55-b5d7-4256-b608-c19d50985d8b"
+    },
+    {
       "id": "f618b347-9229-45d4-a72d-bab78e7ecb8b",
       "command": "EVENT_WAIT",
       "args": {
@@ -44,7 +51,7 @@
       "args": {
         "x": 0,
         "y": 18,
-        "speed": 1
+        "speed": 2
       },
       "id": "7afc883a-832f-47d2-a267-e562016ea0ea"
     },
@@ -52,7 +59,7 @@
       "id": "216e99ed-2ac3-4b62-a977-dd61211bb4e3",
       "command": "EVENT_WAIT",
       "args": {
-        "time": 2
+        "time": 2.5
       }
     },
     {

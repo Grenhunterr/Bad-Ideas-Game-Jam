@@ -1,0 +1,33 @@
+{
+  "_resourceType": "script",
+  "id": "e1ca4c90-4929-4b99-acff-b273c0ee765f",
+  "name": "check if mine/1,1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_38",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "25"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [],
+        "false": []
+      },
+      "id": "b689a69e-c307-4fbb-aec8-96fb30c16fff"
+    }
+  ]
+}

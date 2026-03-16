@@ -65,7 +65,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -77,7 +77,38 @@
             "id": "71b4cea2-5156-4a15-9496-afeb1e8f3610"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "27"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "d6f6668c-7f5c-4d7e-8afe-477cb9e107b2"
+                }
+              ],
+              "false": []
+            },
+            "id": "ae2185e3-c2f2-4e01-9d4f-41a8a9962cd1"
+          }
+        ]
       },
       "id": "94ccc50f-84dd-4e41-841e-801829f3e282"
     },
@@ -95,7 +126,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -107,7 +138,38 @@
             "id": "9ab1a22c-0208-4159-8ccd-caf1a9c643f8"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "32"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "75c92400-15af-4c4f-8301-2923ec2dce6b"
+                }
+              ],
+              "false": []
+            },
+            "id": "573fae0a-0ee0-4c4c-a1f3-08e42892d5a8"
+          }
+        ]
       },
       "id": "6286d93e-336e-4d9b-9cd6-f27a6edea72e"
     },
@@ -125,7 +187,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -137,7 +199,38 @@
             "id": "50ee0bc1-5fe4-40a5-ad71-ac594ea81cec"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "33"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "46fbe7a2-5421-4148-adda-03c36d6e4835"
+                }
+              ],
+              "false": []
+            },
+            "id": "1bc189a6-b4ae-447f-8140-319e40099565"
+          }
+        ]
       },
       "id": "c56667a4-ff78-4678-a185-da15d2cac7dd"
     },
@@ -155,7 +248,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -167,7 +260,38 @@
             "id": "51940484-b1c6-4caa-b428-e9c7fbcd09b8"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "34"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "959bb199-c129-4b10-8208-8e777f5eba9f"
+                }
+              ],
+              "false": []
+            },
+            "id": "ae421407-4532-4c4f-be1d-31494b44393b"
+          }
+        ]
       },
       "id": "6137823a-04b9-454d-9fda-5188e797fb6d"
     },
@@ -185,7 +309,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -197,7 +321,38 @@
             "id": "85bcc710-2d93-4f0a-946f-b6f0eb325e9a"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "29"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "ad47e810-4076-4b37-986f-447095109a09"
+                }
+              ],
+              "false": []
+            },
+            "id": "2eaebfce-2081-4188-af88-806ad28a9530"
+          }
+        ]
       },
       "id": "685345c6-9bbd-451a-bbb4-a9cdc1c765ca"
     },

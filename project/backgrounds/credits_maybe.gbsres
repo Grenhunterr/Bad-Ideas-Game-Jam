@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6fa3ab7b-50fc-486f-acb0-53eff833783a",
+  "name": "credits_maybe",
+  "symbol": "bg_credits_maybe",
+  "width": 20,
+  "height": 36,
+  "imageWidth": 160,
+  "imageHeight": 288,
+  "filename": "credits_maybe.png",
+  "tileColors": ""
+}

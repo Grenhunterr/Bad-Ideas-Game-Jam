@@ -1,0 +1,9 @@
+{
+  "_resourceType": "music",
+  "id": "2bccbb34-b92a-46ac-8380-3829fb665caf",
+  "name": "training",
+  "symbol": "song_training",
+  "filename": "training.uge",
+  "settings": {},
+  "type": "uge"
+}
