@@ -1,0 +1,94 @@
+{
+  "_resourceType": "trigger",
+  "id": "3752ca2c-5a0f-47bf-9cac-3340f0761aa0",
+  "name": "",
+  "prefabId": "",
+  "x": 4,
+  "y": 9,
+  "symbol": "trigger_8",
+  "prefabScriptOverrides": {},
+  "width": 6,
+  "height": 7,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "281b6382-2f1d-4162-9ade-d29593e6c6ff"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {},
+            "id": "ad3765f8-6002-4d01-a257-1e7bdaa39dd6"
+          },
+          {
+            "command": "EVENT_SOUND_PLAY_EFFECT",
+            "args": {
+              "type": "94d16f9b-760c-4ec7-a2b0-2247f8a255a1",
+              "priority": "high",
+              "pitch": 4,
+              "frequency": 200,
+              "duration": 0.5,
+              "wait": true,
+              "effect": 0
+            },
+            "id": "405eb4b7-0904-45e3-8f6f-c46c9fcaa6d1"
+          },
+          {
+            "command": "EVENT_WAIT",
+            "args": {
+              "time": 0.5,
+              "frames": 30
+            },
+            "id": "46785960-e298-4eea-bafd-458a231cb8a3"
+          },
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "1c1e208a-7463-4aa3-a68c-1ccc395f058a"
+          },
+          {
+            "command": "EVENT_IDLE",
+            "args": {},
+            "id": "cb224cbd-2a2e-45ed-be3b-330d9fa450b8"
+          },
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "c45e51ee-f3a9-4074-acf8-9d985c662400"
+            },
+            "id": "7d229013-baa6-41ac-b427-69a36bad2398"
+          }
+        ]
+      },
+      "id": "72afa5ad-89c0-4299-b452-63de19276ce1"
+    }
+  ],
+  "leaveScript": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "a"
+        ],
+        "override": false,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": []
+      },
+      "id": "a4eed6c7-e08a-469a-bd86-888497e6594a"
+    }
+  ],
+  "_index": 1
+}

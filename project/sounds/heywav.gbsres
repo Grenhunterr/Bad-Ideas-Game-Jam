@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "3e4b2c63-607a-428b-a44e-e8355e8827c2",
+  "name": "hey.wav",
+  "symbol": "sound_hey_wav",
+  "filename": "hey.wav",
+  "type": "wav"
+}

@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "titlescreen_glitterbomb_pressstart.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

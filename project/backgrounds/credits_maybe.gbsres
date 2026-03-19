@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 288,
   "filename": "credits_maybe.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

@@ -65,7 +65,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -77,7 +77,39 @@
             "id": "792461a0-6811-473a-832a-507aab88ed3f"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "35"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "74a4a49d-abd7-4d25-a3ef-9330e0662e95"
+                }
+              ],
+              "false": []
+            },
+            "id": "e0122021-8dfe-487a-af72-3507857be2ec"
+          }
+        ]
       },
       "id": "8053061b-c510-4aaa-9fcb-750ebd0d7a47"
     },
@@ -95,7 +127,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -107,7 +139,39 @@
             "id": "f7c209fb-3065-44f1-ab6a-39859a727285"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "36"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "3b05e313-3e5c-4373-99c4-923b032dbec2"
+                }
+              ],
+              "false": []
+            },
+            "id": "285a12f9-68d3-4d2c-ad69-f2e2e8eb5703"
+          }
+        ]
       },
       "id": "388b06de-c7c1-487d-ba8b-6b5e370b6fce"
     },
@@ -125,7 +189,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -137,7 +201,39 @@
             "id": "a6421771-e047-4f72-952c-8324479a38c1"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "41"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "95a89597-c4d1-4f9b-8990-72151e16c881"
+                }
+              ],
+              "false": []
+            },
+            "id": "c190daa7-3eb2-45d3-8bd5-f8b0968958e9"
+          }
+        ]
       },
       "id": "552c2d3b-7329-42b1-8472-1879e836d323"
     },
@@ -155,7 +251,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -167,7 +263,39 @@
             "id": "120c1c54-98a2-475d-9853-96ada9cbf804"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "45"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "e7cbb055-958c-4c11-9704-ddd2c8eadefe"
+                }
+              ],
+              "false": []
+            },
+            "id": "79d7b54b-e601-46fe-8c9d-679c3b9293d4"
+          }
+        ]
       },
       "id": "84b97c90-d6d9-4183-ba96-cacc9eccc46f"
     },
@@ -185,7 +313,7 @@
             "value": 46
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -197,7 +325,39 @@
             "id": "fa46bfdb-f925-4f3a-a6f5-279c55534dc2"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "46"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 44
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_INC_VALUE",
+                  "args": {
+                    "variable": "0"
+                  },
+                  "id": "c161c966-1628-41c0-a11a-aacf0d0c46f3"
+                }
+              ],
+              "false": []
+            },
+            "id": "6f1981ec-1b1c-4454-a35a-fda47041e380"
+          }
+        ]
       },
       "id": "4d09e894-d68c-4742-a00b-9d43be90ba8e"
     },

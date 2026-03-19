@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "b170ab6c-861c-47f7-8b23-424cc172caca",
   "_index": 6,
-  "name": "Scene 7",
+  "name": "ui/creds scene",
   "backgroundId": "6fa3ab7b-50fc-486f-acb0-53eff833783a",
   "tilesetId": "",
   "width": 20,
@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_7",
   "x": 112,
-  "y": 1000,
+  "y": 1720,
   "script": [
     {
       "command": "EVENT_SET_DIALOGUE_FRAME",

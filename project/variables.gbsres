@@ -67,6 +67,21 @@
       "symbol": ""
     },
     {
+      "id": "14",
+      "name": "correct",
+      "symbol": "var_correct"
+    },
+    {
+      "id": "15",
+      "name": "not correct",
+      "symbol": "var_not_correct"
+    },
+    {
+      "id": "20",
+      "name": "maxlevelstorymode",
+      "symbol": "var_maxlevelstorymode"
+    },
+    {
       "id": "25",
       "name": "1,1",
       "symbol": "var_1_1"
@@ -87,14 +102,14 @@
       "symbol": "var_1_4"
     },
     {
-      "id": "30",
-      "name": "2,1",
-      "symbol": "var_2_1"
-    },
-    {
       "id": "29",
       "name": "1,5",
       "symbol": "var_1_5"
+    },
+    {
+      "id": "30",
+      "name": "2,1",
+      "symbol": "var_2_1"
     },
     {
       "id": "31",
@@ -192,14 +207,9 @@
       "symbol": "var_5_5"
     },
     {
-      "id": "14",
-      "name": "correct",
-      "symbol": "var_correct"
-    },
-    {
-      "id": "15",
-      "name": "not correct",
-      "symbol": "var_not_correct"
+      "id": "21",
+      "name": "story/custom",
+      "symbol": "var_story_custom"
     }
   ]
 }

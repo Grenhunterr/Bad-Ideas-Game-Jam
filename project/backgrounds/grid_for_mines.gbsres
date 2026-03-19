@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "bbdf4ffe-657e-4edf-805e-6653c343dc0e",
+  "name": "grid_for_mines",
+  "symbol": "bg_grid_for_mines",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "grid_for_mines.png",
+  "tileColors": ""
+}

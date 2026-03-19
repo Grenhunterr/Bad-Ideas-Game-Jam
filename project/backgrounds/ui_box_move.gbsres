@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "f1bd7d03-387f-4488-8ca6-17ddda1144b0",
+  "name": "ui_box_move",
+  "symbol": "bg_ui_box_move",
+  "width": 100,
+  "height": 18,
+  "imageWidth": 800,
+  "imageHeight": 144,
+  "filename": "ui_box_move.png",
+  "tileColors": ""
+}

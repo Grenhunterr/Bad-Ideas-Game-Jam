@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "5d16ef3f-d248-40bb-a4f8-d341180ab36b",
   "name": "mine_thing",
-  "description": "",
+  "description": "this is the random one",
   "variables": {
     "V0": {
       "id": "V0",
