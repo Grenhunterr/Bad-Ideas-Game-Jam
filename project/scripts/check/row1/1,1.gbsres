@@ -321,11 +321,34 @@
       "children": {
         "true": [
           {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
+            "command": "EVENT_IF",
             "args": {
-              "customEventId": "60920a9d-7ea9-4992-870d-d6e0e17c985f"
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "26"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 47
+                }
+              },
+              "__collapseElse": true
             },
-            "id": "b090c6cf-b893-4deb-a466-a503baf4d097"
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_CALL_CUSTOM_EVENT",
+                  "args": {
+                    "customEventId": "60920a9d-7ea9-4992-870d-d6e0e17c985f"
+                  },
+                  "id": "b090c6cf-b893-4deb-a466-a503baf4d097"
+                }
+              ],
+              "false": []
+            },
+            "id": "727ec160-688e-4a74-ba13-a35f4a23f5e3"
           }
         ],
         "false": []

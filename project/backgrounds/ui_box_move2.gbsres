@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "ui_box_move2.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

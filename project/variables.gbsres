@@ -82,6 +82,11 @@
       "symbol": "var_maxlevelstorymode"
     },
     {
+      "id": "21",
+      "name": "story/custom",
+      "symbol": "var_story_custom"
+    },
+    {
       "id": "25",
       "name": "1,1",
       "symbol": "var_1_1"
@@ -207,9 +212,14 @@
       "symbol": "var_5_5"
     },
     {
-      "id": "21",
-      "name": "story/custom",
-      "symbol": "var_story_custom"
+      "id": "22",
+      "name": "MusicON?",
+      "symbol": "var_musicon_"
+    },
+    {
+      "id": "23",
+      "name": "SkipMovies?",
+      "symbol": "var_skipmovies_"
     }
   ]
 }
