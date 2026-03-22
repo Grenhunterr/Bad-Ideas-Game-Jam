@@ -2349,6 +2349,11 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_OVERLAY_HIDE",
+            "args": {},
+            "id": "13fe1024-2b13-41c7-9b7b-83319c064f89"
+          },
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
@@ -2394,6 +2399,11 @@
             },
             "children": {
               "true": [
+                {
+                  "command": "EVENT_OVERLAY_HIDE",
+                  "args": {},
+                  "id": "789f86df-d82e-440c-839f-ac9f8b49d34a"
+                },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
@@ -2464,6 +2474,36 @@
                           "closeDelayFrames": 30
                         },
                         "id": "2e929553-dfd4-49c5-af51-9dca702af3a6"
+                      },
+                      {
+                        "command": "EVENT_IF",
+                        "args": {
+                          "condition": {
+                            "type": "eq",
+                            "valueA": {
+                              "type": "variable",
+                              "value": "20"
+                            },
+                            "valueB": {
+                              "type": "variable",
+                              "value": "18"
+                            }
+                          },
+                          "__collapseElse": true
+                        },
+                        "children": {
+                          "true": [
+                            {
+                              "command": "EVENT_INC_VALUE",
+                              "args": {
+                                "variable": "20"
+                              },
+                              "id": "7e665ab6-e95d-45d6-b991-bbc210def94d"
+                            }
+                          ],
+                          "false": []
+                        },
+                        "id": "1a23a101-93ab-4ac1-b5c9-a544dcd75ab9"
                       },
                       {
                         "command": "EVENT_SWITCH_SCENE",

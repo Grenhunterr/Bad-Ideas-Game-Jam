@@ -2,7 +2,7 @@
   "_resourceType": "script",
   "id": "c8c3f3b3-b5e7-4a54-bf3e-d7fa41ce3aa4",
   "name": "check/row1/1,1",
-  "description": "Variable A should be set to Variable A inside of whatever script is happening, otherwise, it should be set to the variable that controls the count of the mines around the tile selected",
+  "description": "",
   "variables": {},
   "actors": {},
   "symbol": "script_11",
@@ -301,59 +301,6 @@
         }
       },
       "id": "db0447e4-f896-43bd-82c7-379693b8befc"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "25"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 48
-          }
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "26"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 47
-                }
-              },
-              "__collapseElse": true
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_CALL_CUSTOM_EVENT",
-                  "args": {
-                    "customEventId": "60920a9d-7ea9-4992-870d-d6e0e17c985f"
-                  },
-                  "id": "b090c6cf-b893-4deb-a466-a503baf4d097"
-                }
-              ],
-              "false": []
-            },
-            "id": "727ec160-688e-4a74-ba13-a35f4a23f5e3"
-          }
-        ],
-        "false": []
-      },
-      "id": "685b4bcb-5e84-4e88-aff7-8ea776cd391c"
     }
   ]
 }

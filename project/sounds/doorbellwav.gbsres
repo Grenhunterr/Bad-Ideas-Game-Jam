@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "6fea43f9-e016-4157-ba99-d0b9ba3a4063",
+  "name": "doorbell.wav",
+  "symbol": "sound_doorbell_wav",
+  "filename": "doorbell.wav",
+  "type": "wav"
+}

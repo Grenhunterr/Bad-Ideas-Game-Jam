@@ -38,6 +38,57 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
+            "value": "19"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "19",
+              "value": {
+                "type": "number",
+                "value": 0
+              }
+            },
+            "id": "0d078c75-844f-4586-ba92-1ddf42fb6087"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "32032e6e-ced6-4f1f-83d1-3feb96513562",
+              "x": {
+                "type": "number",
+                "value": 11
+              },
+              "y": {
+                "type": "number",
+                "value": 9
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "bd8bd4b4-b5f3-49fd-a062-ebd9dfba0611"
+          }
+        ],
+        "false": []
+      },
+      "id": "7880ac7a-3824-49a1-b41b-cbee6ff339b2"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
             "value": "21"
           },
           "valueB": {
@@ -48,7 +99,25 @@
         "__collapseElse": true
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "c1441191-f27e-4357-8f9b-88ca1fae1ec4",
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 12
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "6b236a93-f292-4f07-b109-9b87acb5df7e"
+          }
+        ],
         "false": []
       },
       "id": "a1fb9802-41ea-4d67-a5a6-4df0bd8ff240"
@@ -68,7 +137,7 @@
         "direction": "",
         "fadeSpeed": "2"
       },
-      "id": "6b236a93-f292-4f07-b109-9b87acb5df7e"
+      "id": "2bf216c1-0601-4b79-b701-d190c64ae66a"
     }
   ],
   "playerHit1Script": [],

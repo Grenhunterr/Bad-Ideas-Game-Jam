@@ -74,6 +74,17 @@
       "id": "15931dfd-2218-446a-814e-724f50c3f1a4"
     },
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "13",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "b716f2b3-dd7f-48f7-8be9-83ac329a7fbe"
+    },
+    {
       "id": "d1f6679a-467e-4320-8464-67948e6343bc",
       "command": "EVENT_SWITCH_SCENE",
       "args": {

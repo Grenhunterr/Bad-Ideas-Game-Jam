@@ -67,6 +67,11 @@
       "symbol": ""
     },
     {
+      "id": "13",
+      "name": "donethetutorial",
+      "symbol": "var_donethetutorial"
+    },
+    {
       "id": "14",
       "name": "correct",
       "symbol": "var_correct"
@@ -77,14 +82,39 @@
       "symbol": "var_not_correct"
     },
     {
+      "id": "17",
+      "name": "custommines",
+      "symbol": "var_custommines"
+    },
+    {
+      "id": "18",
+      "name": "currentlevel",
+      "symbol": "var_currentlevel"
+    },
+    {
+      "id": "19",
+      "name": "opt",
+      "symbol": "var_opt"
+    },
+    {
       "id": "20",
       "name": "maxlevelstorymode",
       "symbol": "var_maxlevelstorymode"
     },
     {
       "id": "21",
-      "name": "story/custom",
-      "symbol": "var_story_custom"
+      "name": "custom",
+      "symbol": "var_custom"
+    },
+    {
+      "id": "22",
+      "name": "MusicON?",
+      "symbol": "var_musicon_"
+    },
+    {
+      "id": "23",
+      "name": "SkipMovies?",
+      "symbol": "var_skipmovies_"
     },
     {
       "id": "25",
@@ -212,14 +242,9 @@
       "symbol": "var_5_5"
     },
     {
-      "id": "22",
-      "name": "MusicON?",
-      "symbol": "var_musicon_"
-    },
-    {
-      "id": "23",
-      "name": "SkipMovies?",
-      "symbol": "var_skipmovies_"
+      "id": "54659542-1f51-40aa-a24c-b0e1327754b6__L5",
+      "name": "Local 5",
+      "symbol": "var_local_5"
     }
   ]
 }

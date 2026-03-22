@@ -13,8 +13,8 @@
   "collisions": "0069+0f9+00b+0f9+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f2+005+0f2+00b+0f9+00b+0f9+0056+",
   "autoFadeSpeed": 1,
   "symbol": "scene_6",
-  "x": 312,
-  "y": 664,
+  "x": 352,
+  "y": 656,
   "script": [
     {
       "command": "EVENT_TEXT_DRAW",

@@ -14,8 +14,19 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_8",
   "x": 352,
-  "y": 888,
+  "y": 832,
   "script": [
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "18",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "7d846c7c-421c-4531-9a80-207ba52f2b9a"
+    },
     {
       "command": "EVENT_IF",
       "args": {

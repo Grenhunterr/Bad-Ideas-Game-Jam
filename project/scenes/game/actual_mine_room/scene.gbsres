@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "7a245a36-ff62-4c4d-bfee-51e3504e5677",
   "_index": 20,
-  "name": "test/actual mine room",
+  "name": "game/actual mine room",
   "backgroundId": "bbdf4ffe-657e-4edf-805e-6653c343dc0e",
   "tilesetId": "",
   "width": 20,
@@ -67,11 +67,40 @@
       "id": "a8d66b40-621d-4155-a09d-b18bf8280b05"
     },
     {
-      "command": "EVENT_MUSIC_PLAY",
+      "command": "EVENT_IF",
       "args": {
-        "musicId": "c4fbfdfc-6cc4-4c79-8af1-74cd22163771"
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "22"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": false
       },
-      "id": "02d2bebe-d66a-4978-9009-d4df372b4338"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_MUSIC_STOP",
+            "args": {},
+            "id": "12f6455f-dc09-4b0f-bbb8-293afb3bb80b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_MUSIC_PLAY",
+            "args": {
+              "musicId": "c4fbfdfc-6cc4-4c79-8af1-74cd22163771"
+            },
+            "id": "02d2bebe-d66a-4978-9009-d4df372b4338"
+          }
+        ]
+      },
+      "id": "1782ef2f-ad88-41c6-a7f1-e82fc85b257c"
     },
     {
       "command": "EVENT_SET_INPUT_SCRIPT",
@@ -171,39 +200,8 @@
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
+          "select",
           "start"
-        ],
-        "override": false,
-        "__scriptTabs": "press"
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_SWITCH_SCENE",
-            "args": {
-              "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
-              "x": {
-                "type": "number",
-                "value": 0
-              },
-              "y": {
-                "type": "number",
-                "value": 1
-              },
-              "direction": "",
-              "fadeSpeed": "2"
-            },
-            "id": "f1b0bd40-530a-42b3-8161-a7a4ce52d711"
-          }
-        ]
-      },
-      "id": "51ea0c25-a648-4545-8da5-13f2485ff20f"
-    },
-    {
-      "command": "EVENT_SET_INPUT_SCRIPT",
-      "args": {
-        "input": [
-          "select"
         ],
         "override": false,
         "__scriptTabs": "press"

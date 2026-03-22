@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "d746e67f-bde4-4442-a210-d2755e4c5a53",
+  "name": "custom_options_and_stuff",
+  "symbol": "bg_custom_options_and_stuff",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "custom_options_and_stuff.png",
+  "tileColors": "",
+  "autoColor": false
+}

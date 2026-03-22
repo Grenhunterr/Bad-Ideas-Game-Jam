@@ -11,7 +11,7 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "!F:877fede5-f95b-4f58-9340-b36e19c33ae2!You died moron"
+          "!F:877fede5-f95b-4f58-9340-b36e19c33ae2!You opened the wrong\nbox! Creep!"
         ],
         "__section": "text",
         "avatarId": "",
@@ -38,7 +38,7 @@
         "sceneId": "4912bee2-387a-472f-ae4f-6679b6149517",
         "x": {
           "type": "number",
-          "value": 4
+          "value": 6
         },
         "y": {
           "type": "number",

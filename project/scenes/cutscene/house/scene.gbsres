@@ -13,15 +13,114 @@
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_4",
-  "x": 304,
-  "y": 448,
+  "x": 480,
+  "y": 424,
   "script": [
+    {
+      "command": "EVENT_MUSIC_STOP",
+      "args": {},
+      "id": "bb17df7f-6bc7-48c9-9030-8337e8f0386a"
+    },
     {
       "command": "EVENT_ACTOR_DEACTIVATE",
       "args": {
         "actorId": "$self$"
       },
       "id": "953d2e30-8dc2-4b6f-88e2-b0f79ddf39fe"
+    },
+    {
+      "command": "EVENT_IDLE",
+      "args": {},
+      "id": "6375fcaa-7ef1-48db-99ff-f9d7d579e012"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "40b795de-39f3-485b-bdfa-39a92f77b3cb"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "1a8c4a78-9f39-48e6-b5e5-2e9bd25a2937",
+        "priority": "high",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "81fd74f4-a732-48e4-9729-1fc1bda7e690"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 1,
+        "frames": 30
+      },
+      "id": "0ac8529d-101c-489d-8caa-6ffff121b312"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "a3916712-1906-4967-b78b-de83f2b9edb1"
+      },
+      "id": "0e6a3af6-9d5f-4b89-9ab5-24ca355061e0"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.5,
+        "frames": 30
+      },
+      "id": "803470c8-7b62-4901-b62d-f4b852f66018"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "!F:877fede5-f95b-4f58-9340-b36e19c33ae2!* My packages! They're\nhere! It's a little",
+          "!F:877fede5-f95b-4f58-9340-b36e19c33ae2!strange that it took\nthem this long...",
+          "!F:877fede5-f95b-4f58-9340-b36e19c33ae2!* I checked the PSPU \nTracking almost daily...",
+          "!F:877fede5-f95b-4f58-9340-b36e19c33ae2!* Weird!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "f94973f9-914c-480d-bbd8-e9ab4d04fdc0"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b035643c-af21-4e97-b2b1-2d00f3c3962d",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d21d40f5-f325-4e00-bc71-d176b2d85946"
     }
   ],
   "playerHit1Script": [],

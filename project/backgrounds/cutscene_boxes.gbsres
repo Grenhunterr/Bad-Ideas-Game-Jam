@@ -1,13 +1,13 @@
 {
   "_resourceType": "background",
-  "id": "f173fb41-8559-4cd8-bd85-a996175afff4",
-  "name": "options_select",
-  "symbol": "bg_options_select",
+  "id": "1b5adde0-3631-4d50-a2ed-f37840a43bf2",
+  "name": "cutscene_boxes",
+  "symbol": "bg_cutscene_boxes",
   "width": 20,
   "height": 18,
   "imageWidth": 160,
   "imageHeight": 144,
-  "filename": "options_select.png",
+  "filename": "cutscene_boxes.png",
   "tileColors": "",
   "autoColor": false
 }
