@@ -1,9 +1,11 @@
-Bad Game Idea:
-you have too many packages because the
-mail people messed up, and so you
-have to figure out which ones are
-yours minesweeper-style. if you
-open the wrong box, then you'll look
-like a creep. if you wanna play this
-game yourself, just go here
-*points to link/qr code*
+Interesting Game Idea:
+a practical use for Minesweeper in real life. 
+
+the mail delivery system breaks, and you get mailed a 
+crap ton of packages. you have to use the logic of 
+Minesweeper to find and open *your* packages, while 
+making sure not to be a creep and open someone else's 
+package. my team has made this game, and named it
+"Glitter Bomb," after Mark Rober's Glitter Bomb,
+and you can play it right here.
+*points to link and/or QR code*
