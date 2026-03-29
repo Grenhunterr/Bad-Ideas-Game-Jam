@@ -1,0 +1,117 @@
+{
+  "_resourceType": "scene",
+  "id": "7ab302a5-aca5-48c8-879b-14b08cfc37c3",
+  "_index": 25,
+  "name": "Scene 26",
+  "backgroundId": "20ce5523-dbc1-4594-b307-e45cdccdf493",
+  "tilesetId": "",
+  "width": 40,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "002d0+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_26",
+  "x": 112,
+  "y": 64,
+  "script": [
+    {
+      "id": "83f7fed5-0aa8-4005-80bf-67a03a322080",
+      "command": "EVENT_ACTOR_DEACTIVATE",
+      "args": {
+        "actorId": "player"
+      }
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 20
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 0
+      },
+      "id": "4116d74d-a14a-4da7-aa5b-19f37d2d1417"
+    },
+    {
+      "id": "31f257cf-4b37-4b48-b15d-fa843fc2f22a",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2
+      }
+    },
+    {
+      "command": "EVENT_CAMERA_MOVE_TO",
+      "args": {
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "speed": 2
+      },
+      "id": "d44d62d8-c3aa-4de6-aff5-d9a257796aeb"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.5,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 5
+        }
+      },
+      "id": "4cbefb9c-d631-4645-b65c-f94aa26ad25d"
+    },
+    {
+      "command": "EVENT_SOUND_PLAY_EFFECT",
+      "args": {
+        "type": "crash",
+        "priority": "medium",
+        "pitch": 4,
+        "frequency": 200,
+        "duration": 0.5,
+        "wait": true,
+        "effect": 0
+      },
+      "id": "5e697760-5f61-49d9-b546-6f739ab96562"
+    },
+    {
+      "id": "acd90201-9023-427c-8902-8b312d8bea64",
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2
+      }
+    },
+    {
+      "id": "9257737a-60e5-48af-baa6-f1fc8ace654a",
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "b25cfcc4-0ece-4c1a-b382-6bcf8c065ca9",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      }
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
